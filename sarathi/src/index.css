@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  /* Default padding for mobile screens (smaller screens) */
+  padding-left: 16px; /* Less padding for mobile */
+  padding-right: 16px; /* Less padding for mobile */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* For larger screens (using Tailwind's md breakpoint) */
+@media (min-width: 768px) {
+  .container {
+    padding-left: 24px; /* A little more padding on medium screens */
+    padding-right: 24px; /* A little more padding on medium screens */
+  }
+}
+
+/* For larger screens (using Tailwind's lg breakpoint) */
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 48px; /* More padding for large screens */
+    padding-right: 48px; /* More padding for large screens */
+  }
+}
