@@ -6,6 +6,7 @@ import Image2 from '../Assets/illustration2.png';
 import Image3 from '../Assets/illustration3.png';
 import Image4 from '../Assets/illustration4.jpg';
 
+
 export default function Component() {
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-12">
@@ -173,7 +174,7 @@ export default function Component() {
         </div>
       </div>
 
-      {/* Join Section */}
+      {/* Joining Section */}
       <div className="w-full h-[200px] shadow-sm py-3 px-4 sm:px-6 lg:px-8 mx-auto">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex-grow">
